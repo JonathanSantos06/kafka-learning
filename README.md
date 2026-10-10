@@ -115,7 +115,7 @@ curl -X POST "http://localhost:8091/api/messages?key=usuario-1" \
 ### Siguientes mejoras
 
 - [ ] Añadir pruebas unitarias y de integración para productor y consumidor.
-- [ ] Añadir CI para ambas aplicaciones Maven.
+- [x] Añadir CI para ambas aplicaciones Maven.
 - [ ] Documentar el comportamiento de reintentos y errores.
 - [ ] Añadir ejemplos reproducibles para claves, particiones y consumer groups.
 - [ ] Fijar versiones de imágenes de contenedor en lugar de `latest`.
@@ -184,7 +184,7 @@ Verify the application configuration before relying on any port or endpoint.
 ### Roadmap
 
 - [ ] Unit and integration tests for both applications.
-- [ ] CI for both Maven projects.
+- [x] CI for both Maven projects.
 - [ ] Reproducible partition and consumer-group experiments.
 - [ ] Document retries, error handling, and limitations.
 - [ ] Pin container image versions.
