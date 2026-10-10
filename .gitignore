@@ -1,5 +1,4 @@
 # Java / Maven
-.mvn/wrapper/maven-wrapper.jar
 **/target/
 *.class
 *.log
